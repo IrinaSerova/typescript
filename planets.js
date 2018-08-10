@@ -5,5 +5,6 @@ var Planet = /** @class */ (function () {
     }
     return Planet;
 }());
-var Sun = new Planet(864, yellow);
-console.log("The planet " + Sun + " has width " + Sun.width + " and " + Sun.color);
+var sun = new Planet(864, 'yellow');
+// console.log(`The planet ${sun} has width ${Sun.width} and ${Sun.color}`);
+console.log(sun.color);
