@@ -1,5 +1,5 @@
 class Planet {
-    constructor(width, color: string){
+    constructor(width: number, color: string){
         this.width = width;
         this.color = color;
     }
